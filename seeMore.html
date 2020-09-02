@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>더보기_페이지</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/seeMore.css">
+</head>
+
+<body>
+    <div id="wrap">
+        <nav id="gnb">
+            <div id="gnbIcon" class="gnbIcon">
+                <img src="images/seeMore/user.png" alt="유저" width="22" height="22">
+                <img src="images/seeMore/chatBox.png" alt="대화" width="22" height="22">
+                <img src="images/seeMore/more.png" alt="더보기" width="22" height="22">
+            </div>
+            <div id="lnbIcon" class="gnbIcon">
+                <img src="images/seeMore/smile.png" alt="이모티콘" width="18" height="18">
+                <img id="alarmOn" src="images/seeMore/bell.png" alt="알람" width="18" height="18">
+                <img id="alarmOff" src="images/seeMore/silent.png" alt="알람" width="18" height="18">
+                <img src="images/seeMore/settings.png" alt="설정" width="18" height="18">
+            </div>
+            <div id="alarmOnModalLayer" class="alarmModalLayer">
+                <div id="alarmToggle">
+                    <img src="images/seeMore/bell.png" alt="알람" width="100" height="100">
+                </div>
+            </div>
+            <div id="alarmOffModalLayer" class="alarmModalLayer">
+                <div class="alarmToggle">
+                    <img src="images/seeMore/silent.png" alt="알람" width="100" height="100">
+                </div>
+            </div>
+        </nav>
+        <div id="rightArea">
+            <header id="header">
+                <span class="headerIcon">&#9866;</span>
+                <span class="headerIcon">&#9744;</span>
+                <span class="headerIcon">&times;</span>
+            </header>
+            <main id="main">
+                <h3>더보기</h3>
+                <div id="profile">
+                    <img src="images/seeMore/userCircle.png" alt="프로필사진" width="45" height="45">
+                    <div id="userInfo">
+                        <p id="uName">userName</p>
+                        <p id="uEmail">userEmail</p>
+                    </div>
+                </div>
+                <div id="grayBox">
+                    <div>
+                        <img src="images/seeMore/mail.png" alt="메일" width="22" height="22">
+                        <br>
+                        <span>이메일</span>
+                    </div>
+                    <div>
+                        <img src="images/seeMore/calendar.png" alt="캘린더" width="22" height="22">
+                        <br>
+                        <span>캘린더</span>
+                    </div>
+                    <div>
+                        <img src="images/seeMore/drawer.png" alt="서랍" width="22" height="22">
+                        <br>
+                        <span>서랍</span>
+                    </div>
+                </div>
+                <div id="iconDummies">
+                    <div class="icon">
+                        <img src="images/seeMore/notice.png" alt="새소식" width="22" height="22"><br>
+                        <span>새소식</span>
+                    </div>
+                    <div class="icon">
+                        <img src="images/seeMore/chemical_glass.png" alt="실험실" width="22" height="22"><br>
+                        <span>실험실</span>
+                    </div>
+                    <div class="icon">
+                        <img src="images/seeMore/info.png" alt="정보" width="22" height="22"><br>
+                        <span>정보</span>
+                    </div>
+                    <div class="icon">
+                        <img src="images/seeMore/kakaoStory.png" alt="스토리" width="22" height="22"><br>
+                        <span>스토리</span>
+                    </div>
+                    <div class="icon">
+                        <img src="images/seeMore/speaker.png" alt="공지사항" width="22" height="22"><br>
+                        <span>공지사항</span>
+                    </div>
+                    <div class="icon">
+                        <img src="images/seeMore/question.png" alt="도움말" width="22" height="22"><br>
+                        <span>도움말</span>
+                    </div>
+                    <div class="icon">
+                        <img src="images/seeMore/chatbot.png" alt="문의하기" width="22" height="22"><br>
+                        <span>문의하기</span>
+                    </div>
+                </div>
+                <div id="slideTxt">
+                    <div id="slideShuttleFlame">
+                        <a href="#"><span>나우</span><span>톡으로 QR 체크인하세요</span></a>
+                        <a href="#"><span>Tips</span><span>1분 1초가 소중한 당신을 위한 옵션</span></a>
+                        <a href="#"><span>나우</span><span>망고에서 클래식 공연 보고 가세요</span></a>
+                    </div>
+                </div>
+            </main>
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="script/seeMore.js"></script>
+</body>
+
+</html>

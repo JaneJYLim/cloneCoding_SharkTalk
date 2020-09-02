@@ -1,0 +1,215 @@
+    @charset "UTF-8";
+    * {
+        color: #333333;
+    }
+    
+    body {
+        width: 400px;
+        height: 540px;
+        margin: 10px auto;
+    }
+    /* flex 구간 */
+    
+    div#wrap {
+        display: flex;
+    }
+    /* flex 구간 */
+    
+    div#wrap {
+        width: 400px;
+        height: 540px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+    }
+    
+    #gnb {
+        width: 70px;
+        border-right: 1px solid #ddd;
+        background-color: #eee;
+        text-align: center;
+    }
+    
+    #gnb .gnbIcon {
+        width: 30px;
+        margin: 50px auto;
+    }
+    
+    #gnb .gnbIcon img {
+        margin-bottom: 30px;
+    }
+    
+    #gnb #lnbIcon {
+        margin-top: 180px;
+        position: relative;
+    }
+    
+    #gnb #lnbIcon img {
+        margin-bottom: 20px;
+    }
+    
+    #gnb #lnbIcon #alarmOff {
+        position: relative;
+        left: 6px;
+        display: none;
+    }
+    
+    #gnb #alarmOnModalLayer {
+        width: 150px;
+        height: 150px;
+        background-color: rgba(0, 0, 0, 0.7);
+        position: absolute;
+        top: 30%;
+        left: 42%;
+        z-index: 2;
+        display: none;
+    }
+    
+    #gnb #alarmOnModalLayer img {
+        margin-top: 25px;
+    }
+    
+    #gnb #alarmOffModalLayer {
+        width: 150px;
+        height: 150px;
+        background-color: rgba(0, 0, 0, 0.7);
+        position: absolute;
+        top: 30%;
+        left: 42%;
+        z-index: 2;
+        display: none;
+    }
+    
+    #gnb #alarmOffModalLayer img {
+        margin-top: 25px;
+    }
+    
+    #rightArea {
+        width: 330px;
+    }
+    
+    #header {
+        text-align: right;
+    }
+    
+    #header .headerIcon {
+        font-size: 12px;
+        font-weight: bold;
+        margin-top: 5px;
+        display: inline-block;
+    }
+    
+    #header .headerIcon:first-child {
+        margin-right: 4px;
+    }
+    
+    #header .headerIcon:last-child {
+        font-size: 16px;
+        margin-right: 5px;
+        transform: translateY(1px);
+    }
+    
+    #main {
+        padding: 10px 20px;
+    }
+    
+    #main h3 {
+        margin-bottom: 20px;
+    }
+    
+    #main #profile {
+        padding-left: 10px;
+        margin-bottom: 15px;
+    }
+    
+    #main #profile #userInfo {
+        width: 220px;
+        height: 45px;
+        font-size: 14px;
+        line-height: 20px;
+        text-align-last: left;
+        float: right;
+    }
+    
+    #main #profile #userInfo #uName {
+        font-weight: bold;
+    }
+    
+    #main #grayBox {
+        width: 291px;
+        padding: 15px 0;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        margin-bottom: 30px;
+        background-color: #fafafa;
+        display: flex;
+    }
+    
+    #main #grayBox>div {
+        width: 97px;
+        font-size: 12px;
+        text-align: center;
+        padding: 2px 0;
+        border-right: 1px solid #ddd;
+    }
+    
+    #main #grayBox>div span {
+        margin-top: 5px;
+        display: inline-block;
+    }
+    
+    #main #grayBox div:last-child {
+        border-right: none;
+    }
+    
+    #main #iconDummies {
+        width: 290px;
+        height: 180px;
+        font-size: 12px;
+        margin-bottom: 54px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    #main #iconDummies .icon {
+        width: 72px;
+        text-align: center;
+        padding: 20px 0;
+    }
+    
+    #main #iconDummies .icon span {
+        color: #888;
+        margin-top: 8px;
+        display: inline-block;
+    }
+    
+    #main #iconDummies .icon span:hover {
+        color: #000;
+    }
+    
+    #main #slideTxt {
+        width: 290px;
+        height: 30px;
+        font-size: 15px;
+        border: 1px solid #ccc;
+        overflow: hidden;
+        position: relative;
+    }
+    
+    #main #slideTxt #slideShuttleFlame {
+        width: 290px;
+        height: 100px;
+        position: absolute;
+    }
+    
+    #main #slideTxt a {
+        height: 30px;
+        font-size: 13px;
+        line-height: 30px;
+        padding-left: 10px;
+        display: inline-block;
+    }
+    
+    #main #slideTxt span:first-child {
+        font-weight: bold;
+        margin: 0 15px 0 5px;
+    }

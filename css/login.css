@@ -10,8 +10,8 @@
 
 div#wrap {
     width: 400px;
-    height: 540px;
-    background-color: #3f51b5;
+    height: 580px;
+    background-color: #58a5f0;
     border-radius: 10px;
 }
 
@@ -42,7 +42,7 @@ input {
 
 #main {
     width: 400px;
-    height: 420px;
+    height: 460px;
 }
 
 #main #logo {

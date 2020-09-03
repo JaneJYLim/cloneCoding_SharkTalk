@@ -5,7 +5,7 @@
     
     body {
         width: 400px;
-        height: 540px;
+        height: 580px;
         margin: 10px auto;
     }
     /* flex 구간 */
@@ -17,15 +17,15 @@
     
     div#wrap {
         width: 400px;
-        height: 540px;
+        height: 580px;
         border: 1px solid #ddd;
         border-radius: 5px;
     }
     
     #gnb {
         width: 70px;
-        border-right: 1px solid #ddd;
-        background-color: #eee;
+        
+        background-color: #58a5f0;
         text-align: center;
     }
     
@@ -39,7 +39,7 @@
     }
     
     #gnb #lnbIcon {
-        margin-top: 180px;
+        margin-top: 220px;
         position: relative;
     }
     
@@ -137,10 +137,10 @@
     #main #grayBox {
         width: 291px;
         padding: 15px 0;
-        border: 1px solid #ddd;
+        border: 1px solid #f4f8fd;
         border-radius: 5px;
         margin-bottom: 30px;
-        background-color: #fafafa;
+        background-color: #f4f8fd;
         display: flex;
     }
     
@@ -163,7 +163,7 @@
     
     #main #iconDummies {
         width: 290px;
-        height: 180px;
+        height: 140px;
         font-size: 12px;
         margin-bottom: 54px;
         display: flex;
@@ -189,7 +189,7 @@
     #main #slideTxt {
         width: 290px;
         height: 30px;
-        font-size: 15px;
+        font-size: 14px;
         border: 1px solid #ccc;
         overflow: hidden;
         position: relative;

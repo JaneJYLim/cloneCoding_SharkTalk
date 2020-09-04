@@ -4,14 +4,107 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>더보기_페이지</title>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/friend.css">
-    <script defer src="script/friend.js"></script>
 </head>
 
 <body>
+    <div id="wrap">
+        <nav id="gnb">
+            <div id="gnbIcon" class="gnbIcon">
+                <img src="images/seeMore/user.png" alt="유저" width="22" height="22">
+                <img src="images/seeMore/chatBox.png" alt="대화" width="22" height="22">
+                <img src="images/seeMore/more.png" alt="더보기" width="22" height="22">
+            </div>
+            <div id="lnbIcon" class="gnbIcon">
+                <img src="images/seeMore/smile.png" alt="이모티콘" width="18" height="18">
+                <img id="alarmOn" src="images/seeMore/bell.png" alt="알람" width="18" height="18">
+                <img id="alarmOff" src="images/seeMore/silent.png" alt="알람" width="18" height="18">
+                <img src="images/seeMore/settings.png" alt="설정" width="18" height="18">
+            </div>
+            <div id="alarmOnModalLayer" class="alarmModalLayer">
+                <div id="alarmToggle">
+                    <img src="images/seeMore/bell.png" alt="알람" width="100" height="100">
+                </div>
+            </div>
+            <div id="alarmOffModalLayer" class="alarmModalLayer">
+                <div class="alarmToggle">
+                    <img src="images/seeMore/silent.png" alt="알람" width="100" height="100">
+                </div>
+            </div>
+        </nav>
+        <div id="rightArea">
+            <header id="header">
+                <span class="headerIcon">&#9866;</span>
+                <span class="headerIcon">&#9744;</span>
+                <span class="headerIcon">&times;</span>
+            </header>
+            <main id="main">
+                <header id="mainHeader">
+                    <h3>친구</h3>
+                    <img src="images/friend/userAdd.png" alt="친구추가" width="25" height="25">
+                    <div id="searchName">
+                        <img src="images/friend/search.png" alt="찾기아이콘" width="12" height="12">
+                        <input type="text" placeholder="이름 검색">
+                    </div>
+                </header>
+                <div id="profile">
+                    <img src="images/seeMore/userCircle.png" alt="프로필사진" width="50" height="50">
+                    <div id="userInfo">
+                        <p class="uName">userName</p>
+                        <p class="uEmail">userEmail</p>
+                    </div>
+                </div>
+                <hr>
+                <div id="birthFriend">
+                    <p class="miniTitle">생일인 친구</p>
+                    <img src="images/friend/birthdayCake.png" alt="생일케잌" width="25" height="25">
+                    <span>친구의 생일을 확인해보세요!</span>
+                </div>
+                <hr>
+                <div id="favorite">
+                    <p class="miniTitle">즐겨찾기</p>
+                    <div class="user">
+                        <img src="images/seeMore/userCircle.png" alt="유저1" width="25" height="25">
+                        <div class="userInfo">
+                            <p class="uName">유저1</p>
+                            <p class="uSay">할말1</p>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="user">
+                        <img src="images/seeMore/userCircle.png" alt="유저1" width="25" height="25">
+                        <div class="userInfo">
+                            <p class="uName">유저2</p>
+                            <p class="uSay">할말</p>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div id="friends">
+                    <p class="miniTitle">친구</p>
+                    <div class="user">
+                        <img src="images/seeMore/userCircle.png" alt="유저1" width="25" height="25">
+                        <div class="userInfo">
+                            <p class="uName">유저3</p>
+                            <p class="uSay">할말</p>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="user">
+                        <img src="images/seeMore/userCircle.png" alt="유저1" width="25" height="25">
+                        <div class="userInfo">
+                            <p class="uName">유저4</p>
+                            <p class="uSay">할말</p>
+                        </div>
+                    </div>
+            </main>
+        </div>
+    </div>
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="script/seeMore.js"></script>
 </body>
 
 </html>

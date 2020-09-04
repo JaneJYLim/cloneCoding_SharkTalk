@@ -1,1 +1,240 @@
 @charset "UTF-8";
+* {
+    color: #333333;
+}
+
+body {
+    width: 400px;
+    height: 580px;
+    margin: 10px auto;
+}
+/* flex 구간 */
+
+div#wrap {
+    display: flex;
+}
+/* flex 구간 */
+
+div#wrap {
+    width: 400px;
+    height: 580px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+#gnb {
+    width: 70px;
+    
+    background-color: #58a5f0;
+    text-align: center;
+}
+
+#gnb .gnbIcon {
+    width: 30px;
+    margin: 50px auto;
+}
+
+#gnb .gnbIcon img {
+    margin-bottom: 30px;
+}
+
+#gnb #lnbIcon {
+    margin-top: 220px;
+    position: relative;
+}
+
+#gnb #lnbIcon img {
+    margin-bottom: 20px;
+}
+
+#gnb #lnbIcon #alarmOff {
+    position: relative;
+    left: 6px;
+    display: none;
+}
+
+#gnb #alarmOnModalLayer {
+    width: 150px;
+    height: 150px;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 30%;
+    left: 42%;
+    z-index: 2;
+    display: none;
+}
+
+#gnb #alarmOnModalLayer img {
+    margin-top: 25px;
+}
+
+#gnb #alarmOffModalLayer {
+    width: 150px;
+    height: 150px;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 30%;
+    left: 42%;
+    z-index: 2;
+    display: none;
+}
+
+#gnb #alarmOffModalLayer img {
+    margin-top: 25px;
+}
+
+#rightArea {
+    width: 330px;
+}
+
+#header {
+    text-align: right;
+}
+
+#header .headerIcon {
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 5px;
+    display: inline-block;
+}
+
+#header .headerIcon:first-child {
+    margin-right: 4px;
+}
+
+#header .headerIcon:last-child {
+    font-size: 16px;
+    margin-right: 5px;
+    transform: translateY(1px);
+}
+
+#main {
+    padding: 10px 20px;
+    margin-top: 10px;
+    position: relative;
+}
+
+#main #mainHeader h3 {
+    margin-bottom: 20px;
+}
+#main>#mainHeader>img{
+    position: absolute; 
+    right: 20px;
+    top: 10px;
+}
+#main #mainHeader #searchName {
+    width: 280px;
+    padding: 2px 0;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    margin: 0 auto;
+    background-color: #f8f8f8;
+}
+
+#main #mainHeader #searchName img {
+    margin-left: 10px;
+    transform: translateY(2px);
+}
+#main #mainHeader #searchName input {
+    width: 200px;
+    height: 25px;
+    border: none;
+    background: none;
+    outline: none;
+}
+#main #profile {
+    padding-left: 10px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+#main #profile #userInfo {
+    width: 210px;
+    height: 45px;
+    font-size: 14px;
+    line-height: 20px;
+    text-align-last: left;
+    float: right;
+    margin: 5px;
+    margin-left: 5px;
+}
+
+#main #profile #userInfo .uName {
+    font-weight: bold;
+}
+#main hr {
+    margin-bottom: 10px;
+}
+#main #birthFriend {
+    padding-left: 10px;
+    margin-bottom: 20px;
+}
+#main #birthFriend p{
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+#main #birthFriend img{
+    width: 45px;
+    height: 45px;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: rgb(235, 154, 154);
+    vertical-align: middle;
+}
+#main #birthFriend span{
+    font-size: 12px;
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+#main #favorite {
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+#main #favorite p{
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+#main #favorite img{
+    width: 45px;
+    height: 45px;
+}
+
+#main #favorite .userInfo {
+    width: 210px;
+    height: 35px;
+    font-size: 15px;
+    text-align-last: left;
+    float: right;
+    margin: 4px 4px 6px 4px;
+}
+
+#main #favorite .userInfo .uName {
+    font-weight: bold;
+}
+#main #friends {
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+#main #friends p{
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+#main #friends img{
+    width: 45px;
+    height: 45px;
+}
+
+#main #friends .userInfo {
+    width: 210px;
+    height: 35px;
+    font-size: 15px;
+    text-align-last: left;
+    float: right;
+    margin: 4px 4px 6px 4px;
+}
+
+#main #friends .userInfo .uName {
+    font-weight: bold;
+}

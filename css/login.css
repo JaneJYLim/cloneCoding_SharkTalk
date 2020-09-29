@@ -5,13 +5,12 @@
 * {
     color: #fff;
     font-size: 13px;
-    font-weight: bold;
 }
 
 div#wrap {
-    width: 400px;
+    width: 360px;
     height: 580px;
-    background-color: #58a5f0;
+    background-color: #0e3052;
     border-radius: 10px;
 }
 
@@ -41,7 +40,7 @@ input {
 }
 
 #main {
-    width: 400px;
+    width: 360px;
     height: 460px;
 }
 
